@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    font-size: 12px;
+    line-height: 8px;
+    text-align: center;
+    background: url(love.jpeg) no-repeat center center;
+    background-size: 70% auto; /* Aumenta el porcentaje para hacer zoom */
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background-clip: text;
+}

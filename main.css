@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    font-size: 12px;
+    line-height: 8px;
+    text-align: center;
+    background: url(love.jpeg) no-repeat center center;
+    background-size: 70% auto; /* ajusta según tu preferencia */
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background-clip: text;
+    filter: grayscale(100%); /* Añade esta línea */
+    -webkit-filter: grayscale(100%); /* Para compatibilidad con Safari */
+}
